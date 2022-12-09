@@ -16,10 +16,10 @@ function LanguageSelector({ language, setLanguage }) {
 
   return (
     <FormControl sx={{ m: 1, minWidth: 120 }}>
-      <InputLabel label="Language" id="demo-simple-select-label">Language</InputLabel>
+      <InputLabel label="Language" id="language-selector-select">Language</InputLabel>
       <Select
-        labelId="demo-simple-select-label"
-        id="demo-simple-select-label"
+        labelId="language-selector-select"
+        id="language-selector-select"
         label="Language"
         value={language}
         onChange={handleLanguageUpdate}
