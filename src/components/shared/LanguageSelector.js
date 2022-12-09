@@ -19,7 +19,7 @@ function LanguageSelector({ language, setLanguage }) {
       <InputLabel label="Language" id="demo-simple-select-label">Language</InputLabel>
       <Select
         labelId="demo-simple-select-label"
-        id="demo-simple-select"
+        id="demo-simple-select-label"
         label="Language"
         value={language}
         onChange={handleLanguageUpdate}
