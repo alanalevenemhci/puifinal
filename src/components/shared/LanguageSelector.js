@@ -16,12 +16,14 @@ function LanguageSelector({ language, setLanguage }) {
 
   return (
     <FormControl sx={{ m: 1, minWidth: 120 }}>
-      <InputLabel label="Language" id="language-selector-select">Language</InputLabel>
+      <label for="language-input" style={{display: "hidden"}}>Language</label>
+      <InputLabel label="Language" id="language-selector-select-label">Language</InputLabel>
       <Select
-        labelId="language-selector-select"
+        labelId="language-selector-select-label"
         id="language-selector-select"
         label="Language"
         value={language}
+        inputProps={{id: "language-input"}}
         onChange={handleLanguageUpdate}
       >
         <MenuItem value="en">

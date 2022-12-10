@@ -23,6 +23,7 @@ const VotingResources = React.forwardRef((props, ref) => {
       summaryText: languageDictionary.voterIntimidationTitle[language],
       detail: languageDictionary.voterIntimidationBody[language],
     },
+
   ];
 
   return (

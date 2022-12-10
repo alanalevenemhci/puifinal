@@ -7,10 +7,6 @@ const ElectionResults = React.forwardRef((props, ref) => {
   const { language } = props;
   const texts = [
     {
-      summaryText: languageDictionary.ballotDropBoxesTitle[language],
-      detail: languageDictionary.ballotDropBoxesBody[language],
-    },
-    {
       summaryText:
         languageDictionary.whereCanISeeElectionResultsTitle[language],
       detail: languageDictionary.whereCanISeeElectionResultsBody[language],
