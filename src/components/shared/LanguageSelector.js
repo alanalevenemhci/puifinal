@@ -16,8 +16,7 @@ function LanguageSelector({ language, setLanguage }) {
 
   return (
     <FormControl sx={{ m: 1, minWidth: 120 }}>
-      <label for="language-input" style={{display: "hidden"}}>Language</label>
-      <InputLabel label="Language" id="language-selector-select-label">Language</InputLabel>
+      <label for="language-input" style={{display: "hidden", color: "black"}}>Language</label>
       <Select
         labelId="language-selector-select-label"
         id="language-selector-select"
