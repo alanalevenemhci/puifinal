@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/puifinal/static/js/main.efcbce3c.js",
+    "main.js": "/puifinal/static/js/main.c28a7b27.js",
     "static/media/pennvotesspanish.svg": "/puifinal/static/media/pennvotesspanish.b5fd5df907e629958dcc80b3a1d1cb9b.svg",
     "static/media/pennvotesenglish.svg": "/puifinal/static/media/pennvotesenglish.ccac106d3cf55f26f2bf3f96929e2269.svg",
     "static/media/DropOffLetterIcon.svg": "/puifinal/static/media/DropOffLetterIcon.626c280f9f88c759cfbfe4b580d3210e.svg",
     "index.html": "/puifinal/index.html",
-    "main.efcbce3c.js.map": "/puifinal/static/js/main.efcbce3c.js.map"
+    "main.c28a7b27.js.map": "/puifinal/static/js/main.c28a7b27.js.map"
   },
   "entrypoints": [
-    "static/js/main.efcbce3c.js"
+    "static/js/main.c28a7b27.js"
   ]
 }
